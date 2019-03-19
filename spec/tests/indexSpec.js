@@ -19,4 +19,11 @@ describe("Algorithms", function() {
 
       expect(result).toBe(6857);
     });
+
+    it("Problem 4", function() {
+      var algo = require("../../src/algo/problem4");
+      var result = algo();
+
+      expect(result).toBe(906609);
+    });
   });
